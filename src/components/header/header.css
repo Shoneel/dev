@@ -1,0 +1,158 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: var(--body-color);
+}
+
+.nav {
+  height: calc(var(--header-height) + 1.5rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.nav__logo,
+.nav__toggle {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  font-weight: 0.3s;
+}
+
+.nav__icon,
+.nav__close,
+.nav__toggle {
+  display: none;
+}
+
+/* Active Link */
+.active-link,
+.nav__link:hover {
+  color: var(--button-color);
+}
+
+/* Change background header */
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+/* Variable Dark Theme */
+.dark-theme {
+  /*Color mode HSL(hue, saturation, lightness) for dark mode*/
+--hue: 220; /* Change the hue value to a bluish hue, 220 is for a blue tint */
+--sat: 100%; /* Increase saturation to make colors more vibrant */
+--title-color: hsl(var(--hue), var(--sat), 95%); /* Lighten the title color */
+--title-color-dark: hsl(var(--hue), var(--sat), 0%); /* Pure black for title color in dark mode */
+--button-color: #fcd300; /* Keep the button color as it is or adjust as per your preference */
+--button-text-color: #000; /* Set the button text color to black */
+--text-color: hsl(var(--hue), var(--sat), 80%); /* Lighten the text color for better readability */
+--body-color: hsl(var(--hue), var(--sat), 5%); /* Darken the body background color */
+--container-color: hsl(var(--hue), var(--sat), 10%); /* Darken the container background color */
+
+}
+
+/* Dark Mode */
+.nav__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.change-theme {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.change-theme:hover {
+  color: var(--button-color);
+}
+
+/*=============== BREAKPOINTS ===============*/
+@media screen and (max-width: 769px) {
+  .header {
+    top: initial;
+    bottom: 0;
+  }
+
+  .nav {
+    height: var(--height-height);
+  }
+
+  .nav__menu {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--body-color);
+    padding: 2rem 1.5rem 4rem;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 1.5rem 1.5rem 0 0;
+    transition: 0.3s;
+  }
+
+  /* Show Menu  */
+  .show-menu {
+    bottom: 0;
+  }
+
+  .nav__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .nav__close {
+    position: absolute;
+    right: 1.3rem;
+    bottom: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--title-color);
+  }
+
+  .nav__close:hover {
+    color: var(--title-color-dark);
+  }
+
+  .nav__toggle {
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  .nav__icon {
+    font-size: 1.2rem;
+  }
+
+  .nav__icon,
+  .nav__close,
+  .nav__toggle {
+    display: block;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .nav__menu {
+    padding: 2rem 0.25rem 4rem;
+  }
+
+  .nav__list {
+    column-gap: 0;
+  }
+}

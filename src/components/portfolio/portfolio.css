@@ -1,0 +1,89 @@
+.portfolio__container {
+  overflow: initial;
+  width: 956px;
+  
+}
+
+.portfolio__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  column-gap: 0.5rem;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  margin-bottom: var(--mb-5);
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio__img {
+  width: 265px;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+.portfolio__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-25);
+}
+
+.portfolio__description {
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-0-75);
+  margin-right: var(--mb-0-75);
+}
+.portfolio__button {
+  background-color: var(--button-color);
+  color: black;
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.7s;
+  margin-bottom: var(--mb-2);
+}
+
+.portfolio__icon {
+  margin-left: 4px;
+  width: 22px;
+  height: 22px;
+}
+
+.portfolio__button:hover .portfolio__icon {
+  transform: translateX(0.25rem);
+}
+
+.swiper-button-prev {
+  color: var(--text-color) !important;
+}
+
+.swiper-button-next {
+  color: var(--title-color) !important;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .portfolio__container {
+    width: initial;
+  }
+
+  .testimonials__card {
+    padding: 1.25rem 1.5rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  .portfolio__content {
+    border-radius: 0;
+    justify-content: center;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}
