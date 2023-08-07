@@ -4,14 +4,14 @@ export const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.instagram.com"
+        href="https://www.instagram.com/shoneel.fjx"
         className="home__social-icon"
         target="_blank"
       >
         <i class="uil-instagram"></i>
       </a>
       <a
-        href="https://dribble.com"
+        href="https://www.linkedin.com/in/shoneel-kumar-68828b1b2/"
         className="home__social-icon"
         target="_blank"
       >

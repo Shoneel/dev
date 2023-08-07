@@ -40,6 +40,8 @@ const Portfolio = () => {
 
                 <a
                   href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="button button--flex portfolio__button"
                 >
                   Live Demo
