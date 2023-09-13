@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/dev/static/css/main.61d1bade.css",
-    "main.js": "/dev/static/js/main.405be539.js",
+    "main.css": "/dev/static/css/main.99c11e33.css",
+    "main.js": "/dev/static/js/main.df957992.js",
     "static/js/787.aa9ce3f8.chunk.js": "/dev/static/js/787.aa9ce3f8.chunk.js",
+    "static/media/Project-Fitness-App.png": "/dev/static/media/Project-Fitness-App.48082f8ad71986c4729e.png",
+    "static/media/Project-Ecommerce-App.png": "/dev/static/media/Project-Ecommerce-App.2bb23d7c9dc9ddcdc7f7.png",
+    "static/media/Project-Emenu-App.png": "/dev/static/media/Project-Emenu-App.7a925820a6910aa19871.png",
     "static/media/project-modern-website.png": "/dev/static/media/project-modern-website.c01ce31defcf46a7fa86.png",
-    "static/media/Project-Fitness-App.png": "/dev/static/media/Project-Fitness-App.ec81d6693fe943e1a459.png",
     "static/media/about.jpg": "/dev/static/media/about.1f94100ffa328c2996b2.jpg",
     "static/media/profile.jpg": "/dev/static/media/profile.855493783c00e2710a38.jpg",
-    "static/media/Project-Ecommerce-App.png": "/dev/static/media/Project-Ecommerce-App.213bafca1c32c485ddc4.png",
-    "static/media/Project-Emenu-App.png": "/dev/static/media/Project-Emenu-App.c29f52ca53846720de1c.png",
     "static/media/Shoneel-Kumar's-Resume.pdf": "/dev/static/media/Shoneel-Kumar's-Resume.f3d9a440817bda9868d3.pdf",
     "index.html": "/dev/index.html",
-    "main.61d1bade.css.map": "/dev/static/css/main.61d1bade.css.map",
-    "main.405be539.js.map": "/dev/static/js/main.405be539.js.map",
+    "main.99c11e33.css.map": "/dev/static/css/main.99c11e33.css.map",
+    "main.df957992.js.map": "/dev/static/js/main.df957992.js.map",
     "787.aa9ce3f8.chunk.js.map": "/dev/static/js/787.aa9ce3f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61d1bade.css",
-    "static/js/main.405be539.js"
+    "static/css/main.99c11e33.css",
+    "static/js/main.df957992.js"
   ]
 }
