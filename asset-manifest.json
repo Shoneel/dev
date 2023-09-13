@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/dev/static/css/main.61d1bade.css",
-    "main.js": "/dev/static/js/main.95d4914f.js",
+    "main.js": "/dev/static/js/main.405be539.js",
     "static/js/787.aa9ce3f8.chunk.js": "/dev/static/js/787.aa9ce3f8.chunk.js",
     "static/media/project-modern-website.png": "/dev/static/media/project-modern-website.c01ce31defcf46a7fa86.png",
+    "static/media/Project-Fitness-App.png": "/dev/static/media/Project-Fitness-App.ec81d6693fe943e1a459.png",
     "static/media/about.jpg": "/dev/static/media/about.1f94100ffa328c2996b2.jpg",
     "static/media/profile.jpg": "/dev/static/media/profile.855493783c00e2710a38.jpg",
+    "static/media/Project-Ecommerce-App.png": "/dev/static/media/Project-Ecommerce-App.213bafca1c32c485ddc4.png",
+    "static/media/Project-Emenu-App.png": "/dev/static/media/Project-Emenu-App.c29f52ca53846720de1c.png",
     "static/media/Shoneel-Kumar's-Resume.pdf": "/dev/static/media/Shoneel-Kumar's-Resume.f3d9a440817bda9868d3.pdf",
     "index.html": "/dev/index.html",
     "main.61d1bade.css.map": "/dev/static/css/main.61d1bade.css.map",
-    "main.95d4914f.js.map": "/dev/static/js/main.95d4914f.js.map",
+    "main.405be539.js.map": "/dev/static/js/main.405be539.js.map",
     "787.aa9ce3f8.chunk.js.map": "/dev/static/js/787.aa9ce3f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61d1bade.css",
-    "static/js/main.95d4914f.js"
+    "static/js/main.405be539.js"
   ]
 }
